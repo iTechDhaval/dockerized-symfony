@@ -1,0 +1,5 @@
+app_api:
+    type: annotation
+    prefix: /v1
+    resource: "@AppBundle/Controller"
+    name_prefix:  api_1_ # naming collision

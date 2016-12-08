@@ -1,0 +1,32 @@
+AppBundle\Entity\Category:
+    category1:
+        name: Games
+    category2:
+        name: Computers
+    category3:
+        name: TVs and Accessories
+AppBundle\Entity\Product:
+    product1:
+        name: Pong
+        category: '@category1'
+        sku: A0001
+        price: 69.99
+        quantity: 20
+    product2:
+        name: GameStation 5
+        category: '@category1'
+        sku: A0002
+        price: 269.99
+        quantity: 15
+    product3:
+        name: AP Oman PC - Aluminum
+        category: '@category2'
+        sku: A0003
+        price: 1399.99
+        quantity: 10
+    product4:
+        name: "Fony UHD HDR 55\" 4k TV"
+        category: '@category3'
+        sku: A0004
+        price: 1399.99
+        quantity: 5        
